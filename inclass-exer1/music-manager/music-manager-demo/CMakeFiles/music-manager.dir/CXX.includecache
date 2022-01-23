@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tuzi/Desktop/git/Spring2022/inclass-exer1/music-manager/music-manager-demo/src/MusicManager.cpp
+algorithm
+-
+iostream
+-
+random
+-
+MusicManager.h
+/home/tuzi/Desktop/git/Spring2022/inclass-exer1/music-manager/music-manager-demo/src/MusicManager.h
+
+src/include/MusicManager.h
+string
+-
+deque
+-
+

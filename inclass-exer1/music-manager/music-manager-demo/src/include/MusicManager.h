@@ -42,7 +42,7 @@ namespace music {
 
   public:
 
-    void playSongBy(std::string const &artist);
+    Song playSongBy(std::string const &artist);
   };
 
 

@@ -1,0 +1,1 @@
+/usr/bin/clang++     CMakeFiles/runAllTests.dir/MusicManagerTests.cpp.o  -o runAllTests  ../lib/libgmock.a ../lib/libgtest.a ../lib/libgtest_main.a ../libmusic-manager.a ../lib/libgtest.a -lpthread -lm 

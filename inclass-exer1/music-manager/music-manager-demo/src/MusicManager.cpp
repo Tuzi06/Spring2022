@@ -25,7 +25,7 @@ LocalMusicPlayer::play(const Song &song) {
 }
 
 
-void
+Song
 MusicManager::playSongBy(std::string const &artist) {
   std::deque<Song> allSongs = library.getSongs();
   std::deque<Song> byArtist;
@@ -39,6 +39,7 @@ MusicManager::playSongBy(std::string const &artist) {
     size_t index = dis(gen);
     const Song &song = byArtist[index];
     player.play(song);
+    return song;
   }
 }
 
