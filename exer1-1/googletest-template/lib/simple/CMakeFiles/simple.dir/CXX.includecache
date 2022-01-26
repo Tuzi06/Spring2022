@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Awards.cpp
+Awards.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Awards.h
+
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Matthews.cpp
+Matthews.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Matthews.h
+
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Parallelogram.cpp
+cassert
+-
+cmath
+-
+Parallelogram.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/lib/simple/Parallelogram.h
+
+lib/simple/include/Awards.h
+string
+-
+
+lib/simple/include/Matthews.h
+cstdint
+-
+
+lib/simple/include/Parallelogram.h
+stdint.h
+-
+

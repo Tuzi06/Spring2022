@@ -2,10 +2,14 @@
 #include "gmock/gmock.h"
 
 #include "MusicManager.h"
-
+ 
 using namespace music;
 using namespace testing;
 
+class MockMusicManager: public MusicManager{
+    public:
+    MOCK_METHOD
+}
 
 TEST(SongTest,isEqual){
     Song* song = new Song("a","b","c","d");
@@ -16,9 +20,10 @@ TEST(SongTest,isEqual){
 }
 
 TEST(SongPlayByTest, CorrectArtist){
-    const string artist = 'b'
+    const string artist = "b";
     Song song= playSongBy
 }
+
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
