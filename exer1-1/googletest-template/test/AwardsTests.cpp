@@ -29,13 +29,13 @@ TEST (AwardsTests, performActions){
         InSequence seq;
 
         EXPECT_CALL(awards, playAnthem());
-        EXPECT_CALL(awards, awardBronze("a"));
-        EXPECT_CALL(awards, awardSilver("b"));
-        EXPECT_CALL(awards,awardGold("c"));
+        EXPECT_CALL(awards, awardBronze("bronze"));
+        EXPECT_CALL(awards, awardSilver("silver"));
+        EXPECT_CALL(awards,awardGold("gold"));
         EXPECT_CALL(awards, turnOffTheLightsAndGoHome());
     }
 
-    EXPECT_CALL(rank, getNext()).Times(3).WillOnce(Return("name"));
+    EXPECT_CALL(rank, getNext()).Times(3).WillOnce(Return("bronze")).WillOnce(Return("silver")).WillOnce(Return("gold"));
 
     performAwardCeremony(rank, awards);
 

@@ -14,6 +14,14 @@ gmock/gmock.h
 Awards.h
 /home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/Awards.h
 
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/MatthewsTests.cpp
+gtest/gtest.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/gtest/gtest.h
+gmock/gmock.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/gmock/gmock.h
+Matthews.h
+/home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/Matthews.h
+
 /home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/ParallelogramTests.cpp
 gtest/gtest.h
 /home/tuzi/Desktop/git/Spring2022/exer1-1/googletest-template/test/gtest/gtest.h
@@ -24,6 +32,10 @@ Parallelogram.h
 
 lib/simple/include/Awards.h
 string
+-
+
+lib/simple/include/Matthews.h
+cstdint
 -
 
 lib/simple/include/Parallelogram.h
