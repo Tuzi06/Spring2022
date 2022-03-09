@@ -1460,7 +1460,7 @@ class TwoDLSTM(NativeOpGenBase):
      "gradient": "disconnected"},
     {"name": "initialState", "ndim": 4, "shape": (None, None, None, None), "need_contiguous": True,
      "gradient": "disconnected"},
-    {"name": "initialOutput", "ndim": 4, "shape": (None, None, None, None), "need_contiguous": True,
+    {"name": "initialOutput", "ndim": 5, "shape": (None, None, None, None), "need_contiguous": True,
      "gradient": "disconnected"},
     {"name": "iteration", "ndim": 1, "shape": (None,), "need_contiguous": True, "gradient": "disconnected"},
   )

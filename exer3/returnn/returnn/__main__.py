@@ -557,7 +557,7 @@ def execute_main_task():
     print("Server Initiating", file=log.v1)
     server.run()
   elif task == "search_server":
-    engine.use_search_flag = True
+    engine.use_search_flag = False
     engine.init_network_from_config(config)
     engine.web_server(port=config.int("web_server_port", 12380))
   elif task.startswith("config:"):
@@ -631,7 +631,7 @@ def analyze_data(config):  # pylint: disable=redefined-outer-name
   std_dev = numpy.sqrt(mean_sq - mean * mean)
   print("Finished. %i total target frames, %i total data frames" % (total_targets_len, total_data_len), file=log.v1)
   priors_fn = stat_prefix + ".log_priors.txt"
-  mean_fn = stat_prefix + ".mean.txt"
+  mean_fn = None
   std_dev_fn = stat_prefix + ".std_dev.txt"
   print("Dump priors to", priors_fn, file=log.v1)
   numpy.savetxt(priors_fn, log_priors)
