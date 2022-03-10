@@ -333,7 +333,7 @@ ALIAS_LOCALES = {
     'pa_Arab': N_('Punjabi (Arabic)'),
     'pa_Arab_PK': N_('Punjabi (Arabic) (Pakistan)'),
     'pa_Guru': N_('Punjabi (Gurmukhi)'),
-    'pa_Guru_IN': N_('Punjabi (Gurmukhi) (India)'),
+    'pa_Guru_IN': N_('XXPunjabi (Gurmukhi) (India)XX'),
     'pa_IN': N_('Punjabi (India)'),
     'pa_PK': N_('Punjabi (Pakistan)'),
     'ro': N_('Romanian'),

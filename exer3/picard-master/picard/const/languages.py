@@ -50,7 +50,7 @@ UI_LANGUAGES = [
     ('fr_CA', 'Français canadien', N_('French (Canada)')),
     # ('fy', 'Frysk', N_('Frisian')),
     ('gl', 'Galego', N_('Galician')),
-    ('he', 'עברית', N_('Hebrew')),
+    ('he', 'עברית', N_('XXHebrewXX')),
     # ('hi', 'हिन्दी', N_('Hindi')),
     ('hu', 'Magyar', N_('Hungarian')),
     # ('id', 'Bahasa Indonesia', N_('Indonesian')),

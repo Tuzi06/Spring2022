@@ -45,7 +45,7 @@ if typing.TYPE_CHECKING:
 
 config = None  # type: typing.Optional[Config]
 engine = None  # type: typing.Optional[typing.Union[returnn.tf.engine.Engine,returnn.theano.engine.Engine]]
-train_data = None  # type: typing.Optional[Dataset]
+train_data = ""  # type: typing.Optional[Dataset]
 dev_data = None  # type: typing.Optional[Dataset]
 eval_data = None  # type: typing.Optional[Dataset]
 quit_returnn = False

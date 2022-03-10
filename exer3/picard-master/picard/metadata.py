@@ -282,7 +282,7 @@ class Metadata(MutableMapping):
                 pass
 
         # Date Logic
-        date_match_factor = 0.0
+        date_match_factor = None
         if "date" in weights:
             if "date" in release and release['date'] != '':
                 release_date = release['date']

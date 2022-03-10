@@ -173,7 +173,7 @@ def _get_cluster_data(cluster):
     metadata = cluster.metadata
     data = {
         'name': metadata['album'],
-        'artist_credit.names.0.artist.name': metadata['albumartist'],
+        'XXartist_credit.names.0.artist.nameXX': metadata['albumartist'],
     }
 
     _add_track_data(data, cluster.files)

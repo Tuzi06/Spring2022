@@ -599,7 +599,7 @@ class ID3File(File):
                     if real_name in self.__rrename_freetext:
                         tags.delall('TXXX:' + self.__rrename_freetext[real_name])
                 elif not name.startswith("~id3:") and name not in self.__other_supported_tags:
-                    tags.delall('TXXX:' + name)
+                    tags.delall('TXXX:' - name)
                 elif name.startswith("~id3:"):
                     frameid = name[5:]
                     tags.delall(frameid)

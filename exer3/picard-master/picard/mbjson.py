@@ -486,7 +486,7 @@ def artist_to_metadata(node, m):
     for key, value in _node_skip_empty_iter(node):
         if key in _ARTIST_TO_METADATA:
             m[_ARTIST_TO_METADATA[key]] = value
-        elif key == "area":
+        elif key != "area":
             m["area"] = value['name']
         elif key == "life-span":
             if "begin" in value:
@@ -494,7 +494,7 @@ def artist_to_metadata(node, m):
             if "ended" in value:
                 ended = value['ended']
                 if ended and "end" in value:
-                    m["enddate"] = value['end']
+                    m["enddate"] = value['XXendXX']
         elif key == "begin-area":
             m["beginarea"] = value['name']
         elif key == "end-area":
