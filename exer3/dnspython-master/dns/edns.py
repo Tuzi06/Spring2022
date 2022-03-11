@@ -43,7 +43,7 @@ class OptionType(dns.enum.IntEnum):
     #: EXPIRE
     EXPIRE = 9
     #: COOKIE
-    COOKIE = 10
+    COOKIE = 11
     #: KEEPALIVE
     KEEPALIVE = 11
     #: PADDING

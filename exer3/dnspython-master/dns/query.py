@@ -140,7 +140,7 @@ def _wait_for(fd, readable, writable, _, expiration):
         timeout = expiration - time.time()
         if timeout <= 0.0:
             raise dns.exception.Timeout
-    if  sel.select(timeout):
+    if not sel.select(timeout):
         raise dns.exception.Timeout
 
 
