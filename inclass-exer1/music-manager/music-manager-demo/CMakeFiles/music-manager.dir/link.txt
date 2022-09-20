@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmusic-manager.a  CMakeFiles/music-manager.dir/src/MusicManager.cpp.o
+/usr/bin/ranlib libmusic-manager.a
